@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+        padding-top: 65px;
+      }
+
+      .container {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding: 0px;
+      }
+
+      ul li {
+        display: inline;
+        text-align: center;
+      }
+
+      .menu {
+        display: inline;
+        width: 25%;
+        padding: 32px;
+        margin: 30px;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .one:hover ~ hr {
+        margin-left: 7%;
+      }
+
+      .two:hover ~ hr {
+        margin-left: 31%;
+      }
+
+      .three:hover ~ hr {
+        margin-left: 53%;
+      }
+
+      .four:hover ~ hr {
+        margin-left: 75%;
+      }
+
+      hr {
+        height: .25rem;
+        width: 20%;
+        margin: 0;
+        background: tomato;
+        border: none;
+        margin: 20px;
+        margin-left: 7%;
+        transition: .3s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">InfiniTea</a>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/menu">Menu</a>
+        <a class="nav-item nav-link" href="/about">About Us</a>
+        <a class="nav-item nav-link" href="/gallery">Gallery</a>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('https://bit.ly/320vnyg'); background-size: cover; background-position: bottom;height: 50vh;">
+    </div>
+
+    <div class="container">
+      <ul style="padding-left:0px">
+        <li class="one"><a class="menu nav-link" href="#">Classic Milk Tea</a></li>
+        <li class="two"><a class="menu nav-link" href="#">Fruit Tea</a></li>
+        <li class="three"><a class="menu nav-link" href="#">Pure Tea</a></li>
+        <li class="four"><a class="menu nav-link" href="#">Toppings</a></li>
+        <hr>
+      </ul>
+  </div>
+  </body>
+</html>
